@@ -34,7 +34,7 @@ class Application(tk.Frame):
 
     def create_widgets(self):
         # "create" button.
-        self.create = tk.Button(self)
+        self.create = tk.Button(root)
         self.create["text"] = "Generate"
         self.create["command"] = self.gen
         self.create.pack(side="left")
